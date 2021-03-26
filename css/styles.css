@@ -757,6 +757,7 @@ svg {
 
 .modal-form-input-wrapper {
   position: relative;
+  margin-top: 4px;
 }
 
 .modal-form-input {
