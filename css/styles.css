@@ -752,6 +752,13 @@ svg {
   flex-direction: column;
 }
 
+.modal-form-fild {
+}
+
+.modal-form-input-wrapper {
+  position: relative;
+}
+
 .modal-form-input {
   display: block;
   width: 100%;
@@ -760,4 +767,12 @@ svg {
   border-radius: 4px;
   padding-left: 42px;
 }
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  display: block;
+  transform: translateY(-50%);
+}
+
 /* =============END WINDOWS ============= */ ;
