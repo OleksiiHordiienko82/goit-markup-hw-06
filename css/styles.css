@@ -736,9 +736,13 @@ svg {
   cursor: pointer;
   background: var(--primary-background-color);
 }
+.modal-close-btn:hover .modal-icon-container-img,
+.modal-close-btn:focus .modal-icon-container-img {
+  fill: var(--accent-color);
+}
 
-.modal-icon-container-img use {
-  fill: #000000;
+.modal-icon-container-img {
+  transition: var(--timing-function) var(--duration);
 }
 
 .is-hidden {
@@ -890,5 +894,11 @@ svg {
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #188ce8;
+}
+
+.policy-link {
+  display: inline;
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 /* =============END WINDOWS ============= */ ;
